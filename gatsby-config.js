@@ -8,9 +8,9 @@ const { spaceId, accessToken } = process.env;
 
 module.exports = {
   siteMetadata: {
-    title: `Rohit Gupta`,
+    title: `Applejacks`,
     description: `Personal Site`,
-    author: `@rohitguptab`
+    author: `Jonathan Moss`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -18,15 +18,15 @@ module.exports = {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `images`,
-        path: `${__dirname}/src/images`
-      }
+        path: `${__dirname}/src/images`,
+      },
     },
     {
       resolve: "gatsby-source-contentful",
       options: {
-        spaceId,
-        accessToken
-      }
+        spaceId: `px7jn9eghm2j`,
+        accessToken: process.env.CONTENTFUL_ACCESS_TOKEN,
+      },
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
@@ -39,9 +39,9 @@ module.exports = {
         start_url: `/`,
         background_color: `#663399`,
         theme_color: `#333`,
-        icon: `src/images/fev_icon.png` // This path is relative to the root of the site.
-      }
+        icon: `src/images/fev_icon.png`, // This path is relative to the root of the site.
+      },
     }, // To learn more, visit: https://gatsby.dev/offline // this (optional) plugin enables Progressive Web App + Offline functionality
-    `gatsby-plugin-offline`
-  ]
+    `gatsby-plugin-offline`,
+  ],
 };

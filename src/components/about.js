@@ -14,35 +14,13 @@ const Header = ({ data }) => (
         </div>
         <div className="left col-md-7 col-lg-8">
           <div className="about-details">
-            <span className="name">My Name is {data.name}.</span>
-            <h2 className="sub-position">
-              I'm a Professional {data.designation}.
-            </h2>
+            <span className="name">At {data.name},</span>
+            <h2 className="sub-position">We have a dream to</h2>
             <div
               dangerouslySetInnerHTML={{
-                __html: data.description.childMarkdownRemark.html
+                __html: data.description.childMarkdownRemark.html,
               }}
             />
-            <ul className="details">
-              <li>
-                <strong>Full Name</strong>
-                <p>{data.name}</p>
-              </li>
-              <li>
-                <strong>Age</strong>
-                <p>{data.age} Years</p>
-              </li>
-              <li>
-                <strong>Location</strong>
-                <p>{data.location}</p>
-              </li>
-              <li>
-                <strong>Email</strong>
-                <p>
-                  <a href={`mailto:${data.gmail}`}>{data.gmail}</a>
-                </p>
-              </li>
-            </ul>
             <div className="socials">
               <ul>
                 <li>
