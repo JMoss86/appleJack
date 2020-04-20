@@ -32,21 +32,21 @@ export default class Blogs extends Component {
                     )}
                     <div className="details">
                       <h3 className="title">{item.node.title}</h3>
-                      <span className="date">
+                      {/*<span className="date">
                         <i className="fas fa-calendar-alt"></i>{" "}
                         {moment(item.node.createdAt).format("LL")}
-                      </span>
+                    </span>*/}
                     </div>
                   </div>
                 </li>
               );
             })}
           </ul>
-          <div className="see-more">
+          {/*}       <div className="see-more">
             <Link to="/blogs">
               <span>More Blogs</span>
             </Link>
-          </div>
+           </div>*/}
         </div>
       </div>
     );
