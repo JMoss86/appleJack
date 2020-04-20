@@ -1,0 +1,294 @@
+[
+  {
+    "ts": "2020-04-20T04:56:29.507Z",
+    "level": "error",
+    "error": {
+      "name": "AssetProcessingTimeout",
+      "message": "Asset is taking longer then expected to process.",
+      "entity": {
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "px7jn9eghm2j"
+            }
+          },
+          "id": "4yXZnfglqynUp9M1BwYzGy",
+          "type": "Asset",
+          "createdAt": "2020-04-20T03:32:52.144Z",
+          "updatedAt": "2020-04-20T04:56:02.652Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "publishedVersion": 44,
+          "publishedAt": "2020-04-20T04:53:44.075Z",
+          "firstPublishedAt": "2020-04-20T03:33:18.107Z",
+          "createdBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "3t8HNJlngiigOSy08k00lN"
+            }
+          },
+          "updatedBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "3t8HNJlngiigOSy08k00lN"
+            }
+          },
+          "publishedCounter": 11,
+          "version": 46,
+          "publishedBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "3t8HNJlngiigOSy08k00lN"
+            }
+          }
+        },
+        "fields": {
+          "title": {
+            "en-US": "rohitgupta"
+          },
+          "file": {
+            "en-US": {
+              "contentType": "image/jpeg",
+              "fileName": "rohitgupta.jpg",
+              "upload": "https://images.ctfassets.net/4bwt4pzmqo4p/4yXZnfglqynUp9M1BwYzGy/de523284336453dca7abdcf7ad39482b/rohitgupta.jpg"
+            }
+          }
+        }
+      },
+      "stacktrace": [
+        "AssetProcessingTimeout: Asset is taking longer then expected to process.",
+        "C:\\Users\\natha\\AppData\\Roaming\\npm\\node_modules\\contentful-cli\\node_modules\\contentful-management\\dist\\contentful-management.node.js:11713:21",
+        "processTicksAndRejections (internal/process/task_queues.js:97:5)"
+      ]
+    }
+  },
+  {
+    "ts": "2020-04-20T04:56:29.568Z",
+    "level": "error",
+    "error": {
+      "name": "AssetProcessingTimeout",
+      "message": "Asset is taking longer then expected to process.",
+      "entity": {
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "px7jn9eghm2j"
+            }
+          },
+          "id": "48G4Y9AtIb3gNFex4yAE9N",
+          "type": "Asset",
+          "createdAt": "2020-04-19T22:15:22.098Z",
+          "updatedAt": "2020-04-20T04:56:04.464Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "publishedVersion": 23,
+          "publishedAt": "2020-04-20T04:53:44.360Z",
+          "firstPublishedAt": "2020-04-19T22:15:50.064Z",
+          "createdBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "3t8HNJlngiigOSy08k00lN"
+            }
+          },
+          "updatedBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "3t8HNJlngiigOSy08k00lN"
+            }
+          },
+          "publishedCounter": 8,
+          "version": 25,
+          "publishedBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "3t8HNJlngiigOSy08k00lN"
+            }
+          }
+        },
+        "fields": {
+          "title": {
+            "en-US": "safar-safarov-MSN8TFhJ0is-unsplash"
+          },
+          "file": {
+            "en-US": {
+              "contentType": "image/webp",
+              "fileName": "safar-safarov-MSN8TFhJ0is-unsplash.webp",
+              "upload": "https://images.ctfassets.net/4bwt4pzmqo4p/48G4Y9AtIb3gNFex4yAE9N/0924fb6f97c3ce17571bdb2e7ca6f6c7/safar-safarov-MSN8TFhJ0is-unsplash.webp"
+            }
+          }
+        }
+      },
+      "stacktrace": [
+        "AssetProcessingTimeout: Asset is taking longer then expected to process.",
+        "C:\\Users\\natha\\AppData\\Roaming\\npm\\node_modules\\contentful-cli\\node_modules\\contentful-management\\dist\\contentful-management.node.js:11713:21",
+        "processTicksAndRejections (internal/process/task_queues.js:97:5)"
+      ]
+    }
+  },
+  {
+    "ts": "2020-04-20T04:56:29.627Z",
+    "level": "error",
+    "error": {
+      "name": "AssetProcessingTimeout",
+      "message": "Asset is taking longer then expected to process.",
+      "entity": {
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "px7jn9eghm2j"
+            }
+          },
+          "id": "5053xqiD6rGY5Z3xDASnAo",
+          "type": "Asset",
+          "createdAt": "2020-04-20T03:32:52.344Z",
+          "updatedAt": "2020-04-20T04:56:02.537Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "publishedVersion": 45,
+          "publishedAt": "2020-04-20T04:53:38.344Z",
+          "firstPublishedAt": "2020-04-20T03:33:11.805Z",
+          "createdBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "3t8HNJlngiigOSy08k00lN"
+            }
+          },
+          "updatedBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "3t8HNJlngiigOSy08k00lN"
+            }
+          },
+          "publishedCounter": 12,
+          "version": 47,
+          "publishedBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "3t8HNJlngiigOSy08k00lN"
+            }
+          }
+        },
+        "fields": {
+          "title": {
+            "en-US": "rohitgupta-full"
+          },
+          "file": {
+            "en-US": {
+              "contentType": "image/jpeg",
+              "fileName": "rohitgupta-full.jpg",
+              "upload": "https://images.ctfassets.net/4bwt4pzmqo4p/5053xqiD6rGY5Z3xDASnAo/3f619b4c00f7c31bcd9f584155f5fb72/rohitgupta-full.jpg"
+            }
+          }
+        }
+      },
+      "stacktrace": [
+        "AssetProcessingTimeout: Asset is taking longer then expected to process.",
+        "C:\\Users\\natha\\AppData\\Roaming\\npm\\node_modules\\contentful-cli\\node_modules\\contentful-management\\dist\\contentful-management.node.js:11713:21",
+        "processTicksAndRejections (internal/process/task_queues.js:97:5)"
+      ]
+    }
+  },
+  {
+    "ts": "2020-04-20T04:56:29.677Z",
+    "level": "error",
+    "error": {
+      "name": "AssetProcessingTimeout",
+      "message": "Asset is taking longer then expected to process.",
+      "entity": {
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "px7jn9eghm2j"
+            }
+          },
+          "id": "7yHuAa09NVOcZ25POk7cbM",
+          "type": "Asset",
+          "createdAt": "2020-04-19T22:15:22.176Z",
+          "updatedAt": "2020-04-20T04:56:04.472Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "publishedVersion": 50,
+          "publishedAt": "2020-04-20T04:53:43.771Z",
+          "firstPublishedAt": "2020-04-19T22:15:49.596Z",
+          "createdBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "3t8HNJlngiigOSy08k00lN"
+            }
+          },
+          "updatedBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "3t8HNJlngiigOSy08k00lN"
+            }
+          },
+          "publishedCounter": 13,
+          "version": 52,
+          "publishedBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "3t8HNJlngiigOSy08k00lN"
+            }
+          }
+        },
+        "fields": {
+          "title": {
+            "en-US": "rohitgupta-white"
+          },
+          "file": {
+            "en-US": {
+              "contentType": "image/png",
+              "fileName": "rohitgupta-white.png",
+              "upload": "https://images.ctfassets.net/4bwt4pzmqo4p/7yHuAa09NVOcZ25POk7cbM/bc1930c39aba010b01a493082ba0bc99/rohitgupta-white.png"
+            }
+          }
+        }
+      },
+      "stacktrace": [
+        "AssetProcessingTimeout: Asset is taking longer then expected to process.",
+        "C:\\Users\\natha\\AppData\\Roaming\\npm\\node_modules\\contentful-cli\\node_modules\\contentful-management\\dist\\contentful-management.node.js:11713:21",
+        "processTicksAndRejections (internal/process/task_queues.js:97:5)"
+      ]
+    }
+  }
+]
