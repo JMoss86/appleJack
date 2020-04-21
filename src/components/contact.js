@@ -6,10 +6,10 @@ export default class Contact extends Component {
       <div className="contact section" id="Contact">
         <div className="container">
           <div className="section-head">
-            <h2 className="text-center">Contact</h2>
+            <h2 className="text-center">Contact applejacksranch@gmail.com</h2>
           </div>
           <form
-            action={`https://formspree.io/${this.props.data}`}
+            action={`https://formspree.io/maydrwrn`}
             name="contact"
             method="POST"
             data-netlify="true"
