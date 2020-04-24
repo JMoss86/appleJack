@@ -11,10 +11,10 @@ import Share from "../components/share";
 export default class blogPost extends Component {
   render() {
     const data = this.props.data.contentfulBlogs;
-    const disqusShortname = "RohitGupta";
+    const disqusShortname = "Applejacks";
     const disqusConfig = {
       identifier: data.id,
-      title: data.title
+      title: data.title,
     };
 
     const siteurl = this.props.data.contentfulSiteInformation.siteUrl + "/";
@@ -22,10 +22,10 @@ export default class blogPost extends Component {
       .twiteerHandle;
     const socialConfigss = {
       site: {
-        siteMetadata: { siteurl, twiteerhandle }
+        siteMetadata: { siteurl, twiteerhandle },
       },
       title: data.title,
-      slug: data.slug
+      slug: data.slug,
     };
 
     return (
@@ -33,10 +33,10 @@ export default class blogPost extends Component {
         <SEO
           title={data.title}
           keywords={[
-            `Rohit Gupta`,
-            `Frontend Developer`,
-            `Developer`,
-            `${data.title}`
+            `Applejack's Ranch`,
+            `Applejack's Ranch`,
+            `Therapy Ranch`,
+            `${data.title}`,
           ]}
         />
         <div className="site-container blog-post">
@@ -60,7 +60,7 @@ export default class blogPost extends Component {
               </span>
               <div
                 dangerouslySetInnerHTML={{
-                  __html: data.description.childMarkdownRemark.html
+                  __html: data.description.childMarkdownRemark.html,
                 }}
               />
             </div>
@@ -69,8 +69,8 @@ export default class blogPost extends Component {
                 ...socialConfigss.site.siteMetadata.twiteerhandletitle,
                 config: {
                   url: `${siteurl}${socialConfigss.slug}`,
-                  title: `${socialConfigss.title}`
-                }
+                  title: `${socialConfigss.title}`,
+                },
               }}
             />
             <DiscussionEmbed

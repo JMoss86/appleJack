@@ -14,7 +14,12 @@ export default class Blogs extends Component {
       <Layout>
         <SEO
           title="Blogs"
-          keywords={[`Rohit Gupta`, `Frontend Developer`, `Developer`, `Blogs`]}
+          keywords={[
+            `Applejack's Ranch`,
+            `Applejack's Ranch`,
+            `Therapy Ranch`,
+            `Blogs`,
+          ]}
         />
         <div className="site-container blogs-page" id="Blogs">
           <div className="container">
@@ -61,7 +66,7 @@ export default class Blogs extends Component {
 
 export const pageQuery = graphql`
   query BlogsQuery {
-    allContentfulBlogs(sort: {fields: createdAt, order: DESC}) {
+    allContentfulBlogs(sort: { fields: createdAt, order: DESC }) {
       edges {
         node {
           title
