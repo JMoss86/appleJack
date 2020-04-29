@@ -7,7 +7,7 @@ export default class service extends Component {
       <div className="service section" id="Service">
         <div className="container">
           <div className="section-head">
-            <h2>Methods</h2>
+            <h2>Approach</h2>
           </div>
           <div className="row">
             {data.edges.map((item, index) => {

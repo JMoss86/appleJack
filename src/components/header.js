@@ -61,7 +61,7 @@ export default class Header extends Component {
                     .map((t) => {
                       return (
                         <li>
-                          <Link to={`/#Service`}>Methods</Link>
+                          <Link to={`/#Service`}>Approach</Link>
                         </li>
                       );
                     })}
