@@ -114,6 +114,7 @@ export default class Header extends Component {
                 </ul>
               </div>
             ) : (
+              /* Blog Page Header */
               <div className="menu">
                 <ul
                   onClick={() => {
@@ -126,7 +127,6 @@ export default class Header extends Component {
                     <Link to="/#home">Home</Link>
                   </li>
 
-                  {/* Blog Page Header */}
                   {data.menus
                     .filter((item) => item === "Blogs")
                     .map((t) => {
