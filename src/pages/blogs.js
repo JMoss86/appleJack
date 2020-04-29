@@ -13,18 +13,18 @@ export default class Blogs extends Component {
     return (
       <Layout>
         <SEO
-          title="Blogs"
+          title="Learn More"
           keywords={[
             `Applejack's Ranch`,
             `Applejack's Ranch`,
             `Therapy Ranch`,
-            `Blogs`,
+            `Learn More`,
           ]}
         />
         <div className="site-container blogs-page" id="Blogs">
           <div className="container">
             <div className="section-head">
-              <h1 className="line-heading h2">Blogs</h1>
+              <h1 className="line-heading h2">Learn More</h1>
             </div>
             <ul
               className={`blogs-list ${

@@ -4,7 +4,7 @@ export default class service extends Component {
   render() {
     const { data } = this.props;
     return (
-      <div className="service section" id="Service">
+      <div className="service section" id="Approach">
         <div className="container">
           <div className="section-head">
             <h2>Approach</h2>
