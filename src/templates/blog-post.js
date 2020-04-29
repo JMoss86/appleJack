@@ -64,7 +64,7 @@ export default class blogPost extends Component {
                 }}
               />
             </div>
-            <Share
+            {/*<Share
               socialConfig={{
                 ...socialConfigss.site.siteMetadata.twiteerhandletitle,
                 config: {
@@ -73,10 +73,10 @@ export default class blogPost extends Component {
                 },
               }}
             />
-            <DiscussionEmbed
+                        <DiscussionEmbed
               shortname={disqusShortname}
               config={disqusConfig}
-            />
+            />*/}
           </div>
         </div>
       </Layout>
