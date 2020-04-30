@@ -7,7 +7,7 @@ export default class Contact extends Component {
       <div className="contact section" id="Contact">
         <div className="container">
           <div className="section-head">
-            <h2 className="text-center">Sign up for our newsletter!</h2>
+            <h2 className="text-center">Sign up for our newsletter</h2>
             <Mailchimp
               action="https://app.us8.list-manage.com/subscribe/post?u=f2639e87a7aa751a8adae9713&amp;id=8aa423b577"
               fields={[
