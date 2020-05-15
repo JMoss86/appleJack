@@ -9,7 +9,7 @@ const { spaceId, accessToken } = process.env;
 module.exports = {
   siteMetadata: {
     title: `Applejacks`,
-    description: `Personal Site`,
+    description: `Where home meets healing`,
     author: `Jonathan Moss`,
   },
   plugins: [
