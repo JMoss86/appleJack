@@ -22,7 +22,6 @@ export default class PhotosPage extends Component {
       <Layout>
         <SEO
           title="Photos"
-<<<<<<< HEAD
           keywords={[
             `Applejacks Ranch`,
             `Therapy Ranch`,
@@ -30,9 +29,6 @@ export default class PhotosPage extends Component {
             `Photo`,
             `Home meets healing`,
           ]}
-=======
-          keywords={[`Applejacks Ranch`, `Therapy Ranch`, `Healing`, `Photo`]}
->>>>>>> aae40784c7b16294a8f95b2d5b487fbc9348c8ef
         />
         <div className="site-container blogs-page" id="Blogs">
           <div className="container">
