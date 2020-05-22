@@ -5,6 +5,7 @@ import "bootstrap/dist/css/bootstrap.css";
 
 import Header from "./header";
 import Footer from "./footer";
+import Analytics from "./Analytics";
 
 import "../css/style.css";
 import "../css/font-awesome.css";
@@ -29,14 +30,14 @@ const Layout = ({ children, header }) => (
         }
       }
     `}
-    
-    render={data => (
+    render={(data) => (
       <>
         <Header
           data={data.contentfulSiteInformation}
           siteTitle={data.contentfulSiteInformation.siteName}
           header={header}
         />
+        <Analytics />
         <div>
           <main id="home">{children}</main>
         </div>
@@ -47,7 +48,7 @@ const Layout = ({ children, header }) => (
 );
 
 Layout.propTypes = {
-  children: PropTypes.node.isRequired
+  children: PropTypes.node.isRequired,
 };
 
 export default Layout;
