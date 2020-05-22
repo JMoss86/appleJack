@@ -22,7 +22,13 @@ export default class PhotosPage extends Component {
       <Layout>
         <SEO
           title="Photos"
-          keywords={[`Applejacks Ranch`, `Therapy Ranch`, `Healing`, `Photo`]}
+          keywords={[
+            `Applejacks Ranch`,
+            `Therapy Ranch`,
+            `Healing`,
+            `Photo`,
+            `Home meets healing`,
+          ]}
         />
         <div className="site-container blogs-page" id="Blogs">
           <div className="container">
