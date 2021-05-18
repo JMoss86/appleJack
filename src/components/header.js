@@ -111,6 +111,16 @@ export default class Header extends Component {
                         </li>
                       );
                     })}
+                  {data.menus
+                    .filter((item) => item === "Donate")
+                    .map((t) => {
+                      return (
+                        <li>
+                          {/*<Link to={`/#Donate`}>Donate</Link>*/}
+                          <a href="https://www.applejacksranch.info/donate">Donate</a>
+                        </li>
+                      );
+                    })}
                 </ul>
               </div>
             ) : (
