@@ -13,13 +13,14 @@ export default class Banner extends Component {
         />
         <div className="container">
           <div className="banner-details">
-            <span>Welcome to...</span>
+            {/*<span>Welcome to...</span>
             <h1>{data.designation}.</h1>
             <ul className="sub-data">
               {data.bannerList.map((item, index) => {
                 return <li key={index}>{item}</li>;
               })}
-            </ul>
+            </ul>*/}
+            <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
             <ul className="social">
               <li>
                 <a
