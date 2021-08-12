@@ -42,7 +42,7 @@ module.exports = {
         theme_color: `#333`,
         //~~For some reason, an update of various node modules let in tiny demons to break the site.
         //~~Commenting out the below line seems to have excorcised them.
-        icon: `src/images/fev_icon.png`, // This path is relative to the root of the site.
+        //icon: `src/images/fev_icon.png`, // This path is relative to the root of the site.
       },
     }, // To learn more, visit: https://gatsby.dev/offline // this (optional) plugin enables Progressive Web App + Offline functionality
     `gatsby-plugin-offline`,
